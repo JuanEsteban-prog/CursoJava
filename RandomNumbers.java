@@ -12,8 +12,8 @@ public class RandomNumbers {
         // to do the following
         // number = random.nextInt(inclusive,exclusive);
         numberOne = random.nextInt(1, 6);
-        numberTwo = random.nextInt(1, 6);
-        numberThree = random.nextInt(1, 6);
+        numberTwo = random.nextInt(1, 20);
+        numberThree = random.nextInt(1, 1000000);
 
         System.out.println(numberOne);
         System.out.println(numberTwo);
@@ -23,8 +23,8 @@ public class RandomNumbers {
         double decimalNumberTwo;
         double decimalNumberThree;
 
-        decimalNumberOne = random.nextDouble(0, 1);
-        decimalNumberTwo = random.nextDouble(0, 1);
+        decimalNumberOne = random.nextDouble(0, 1); // this will generate a random number between 0 and 1
+        decimalNumberTwo = random.nextDouble(0, 1); // but it will only show 15 decimal places
         decimalNumberThree = random.nextDouble(0, 1);
 
         System.out.println(decimalNumberOne);
