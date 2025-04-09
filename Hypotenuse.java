@@ -10,5 +10,7 @@ public class Hypotenuse {
 
         double hypotenuse = Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
         System.out.println("The hypotenuse is: " + hypotenuse);
+
+        scanner.close();
     }
 }
