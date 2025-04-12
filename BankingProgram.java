@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class BankingProgram {
     static Scanner scanner = new Scanner(System.in);
-    double balance = 0;
-    boolean isRunning = true;
     int usersChoice;
 
     public static void main(String[] args) {
