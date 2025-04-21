@@ -38,7 +38,7 @@ public class SlotMachine {
             payout = getPayout(row, bet);
 
             if (payout > 0) {
-                System.out.print("You won: $" + payout);
+                System.out.println("You won: $" + payout);
                 balance += payout;
             } else {
                 System.out.println("You lost this round!");
